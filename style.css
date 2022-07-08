@@ -43,3 +43,51 @@ div .c{
     height: 200px;
     display: block;
 }
+.menue{
+    background: indianred;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 15px;
+}
+ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    background: #000;
+}
+ul li:hover a{
+    color: yellow;
+}
+div ~ p{
+    color: yellowgreen
+}
+h3::before{
+    content: 'l';
+    color: red;
+    font-size: 40px;
+}
+.bg{
+    width: 400px;
+    height: 400px;
+    background: indianred;
+    overflow-y: hidden;
+    margin: 50px;
+}
+.bg p{
+    margin-top: 100px;
+    padding: 10px 20px;
+    color: white;
+    background: #000;
+    text-align: center;
+}
