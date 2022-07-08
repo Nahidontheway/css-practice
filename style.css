@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.green-box{
+    width: 500px;
+    height: 250px;
+    background: green;
+    position: relative;
+}
+.red-box{
+    width: 150px;
+    height: 150px;
+    background: rgb(211, 12, 12);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -35px;
+    margin: auto;
+}
+.m1{
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    background: #000;
+    text-align: center;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+p{
+    width: 70px;
+    height: 1000px;
+}
