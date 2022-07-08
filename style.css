@@ -32,7 +32,10 @@ body{
     bottom: 15px;
     right: 15px;
 }
-p{
-    width: 70px;
-    height: 1000px;
+article{
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    border: 2px solid black;
+    overflow-x: hidden;
 }
